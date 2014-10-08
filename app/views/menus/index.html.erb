@@ -11,8 +11,6 @@
       野菜
     </button>
   </p>
-  <%= :class => "btn btn-success btn-lg", button_to "次へ", {:controller => :menus, :action => :explore %>
-  <button class="btn btn-success btn-lg">
-    次へ<span class="glyphicon glyphicon-arrow-right"></span>
+  <%= link_to "次へ", :action => "explore" %>
   </button>
 </div>
